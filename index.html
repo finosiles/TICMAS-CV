@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juan Garcia-Portfolio</title>
+<link rel="stylesheet" href="/libs/bootstrap/css/bootstrap.min.css">
+  <!-- CSS: Bootstrap and Custom Styles -->
+  <!-- <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/> -->
+ <link rel="stylesheet" href="style.css"> 
+
+
+  <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Juan Garcia</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">Acerca</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#work">Experiencias</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#hability">Habilidades</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contactos</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Header -->
+<header class="jumbotron jumbotron-fluid text-center">
+  <h1 class="display-4">Bienvenido, soy Juan Garcia  desarrollador web</h1>
+  <p class="lead">Trabajando en mi desarrollo personal para lograr productos de excelencia</p>
+</header>
+<button id="btn-goto-top" class="btn-goto-top" title="Ir arriba">
+  <i class="lni lni-chevron-up"></i>
+</button>
+<!-- Acerca -->
+<section id="about" class="container">
+  <h2 class="text-center mb-5">Acerca de</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <img src="./img/foto-personal.jpg" class="img-thumbnail mb-3" alt="Profile Image">
+    </div>
+    <div class="col-md-8">
+      <p>Desarrollador web especializado en la construcción de paginas web dinamicas de forma totalmente customizables y multiprocesados para un dominio, sitio en internet o plataforma. Trabajo con  todo tipo de herramientas que  permiten crear y desarrollar tu sitio en cualquier momento.</p>
+    </div>
+  </div>
+</section>
+
+      
+   <!-- Habilidaddes Section -->
+      <section id="hability" class="container mt-5">
+        <h2 class="text-center ">Habilidades</h2>
+        <div class="row pt-2 pb-2">
+          <div class="col-sm-4">
+            <div class="card hover-zoom">
+              <img src="./img/html5.png" class="img-thumbnail   rounded mx-auto d-block hover-zoom" style="width: 50%">
+              <div class="card-body">
+                <h4 class="card-title text-center">HTML</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="./img/css3.png" class="img-thumbnail rounded mx-auto d-block hover-zoom" style="width: 50%" >
+              <div class="card-body">
+		 <h4 class="card-title text-center">CSS</h4>
+                 
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-sm-4">
+            <div class="card">
+              <img src="./img/js.png" class="card-img-top rounded hover-zoom mx-auto d-block" style="width: 50%">
+              <div class="card-body">
+		 <h4 class="card-title text-center">JS</h4>
+                 
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </section>
+
+  
+       <!-- Work Section -->
+      <section id="work" class="container mt-5">
+        <h2 class="text-center ">Experiencias</h2>
+        <div class="row pt-2 pb-2">
+          <div class="col-sm-4">
+            <div class="card ">
+              <img src="./img/app.jpg" class="img-thumbnail ">
+              <div class="card-body">
+                <h4 class="card-title">Aplicación de precios</h4>
+                <p class="card-text">Aplicacion que permite analizar los precios de productos y compararlos con el resto del mundo, puedes buscar cualquier cosa en tu iPhone o Android y ver como ese producto esta en otros paises incluyendo Estados Unidos, Europa o Sudamérica.</p>
+                <a href="#" class="btn btn-dark hover-zoom">Saber más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="./img/gestion.jpg" class="img-thumbnail">
+              <div class="card-body">
+		 <h4 class="card-title">Sistema de gestión</h4>
+                 <p class="card-text">Un sistema de gestión para las empresas que no desean o necesitan un gran presupuesto para su negocio.</p><p> Tener un inventario de productos se convierte en una actividad cotidiana.</p>
+                <a href="#" class="btn btn-dark hover-zoom">Saber más</a>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-sm-4">
+            <div class="card">
+              <img src="./img/blog.jpg" class="card-img-top">
+              <div class="card-body">
+		 <h4 class="card-title">Blog</h4>
+                 <p class="card-text">
+Soy desarrollador web, diseñador y escritor. He trabajado con clientes en diversas industrias, como cine y televisión, educación, gobierno y organizaciones sin fines de lucro.</p>
+                <a href="#" class="btn btn-dark hover-zoom">Saber más</a>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </section>
+
+
+      <!-- Contactos -->
+
+      
+<section id="contact" class="container ">
+   
+            <h2 class="text-center mt-5 py-3">Contactos</h2>
+     
+    <div class="row">
+        <div class="col-sm-6">
+            <form id="contact-form" method="post" action="#">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark">Enviar</button>
+            </form>
+        </div>
+        <div class="col-sm-6 contact-info">
+            <p>Email: <a href="mailto:youremail@example.com">juangarcia@desarrollador.com</a></p>
+            <p>teléfono: +54 113343433</p>
+            <div class="social-links px-2">
+                <a href="#">
+                    <i class="lni lni-twitter px-2"></i>
+                </a>
+                <a href="#">
+                    <i class="lni lni-facebook px-2"></i>
+                </a>
+                <a href="#">
+                    <i class="lni lni-instagram px-2"></i>
+                </a>
+                <a href="#">
+                    <i class="lni lni-linkedin px-2"></i>
+                </a>
+		<a href="#">
+                    <i class="lni lni-github px-2"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="bg-light py-3">
+    
+  <div class="footer-sm" style="background-color: #212121;">
+    <div class="container">
+      <div class="row py-4 text-center text-white">
+        <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+          conozca nuestras redes sociales
+        </div>
+        <div class="col-lg-7 col-md-6">
+          <a href="#"><i class="lni lni-facebook"></i></a>
+          <a href="#"><i class="lni lni-twitter"></i></a>
+          <a href="#"><i class="lni lni-github"></i></a>
+          <a href="#"><i class="lni lni-linkedin"></i></a>
+          <a href="#"><i class="lni lni-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+        <div class="row">
+            <div class="col-12">
+              <p class="text-muted text-center">Argentina Programa - TICMAS Portfolio  Derechos Reservados &copy;</p>
+	  
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="/porfolio.js"></script>
+<script src="/libs/bootstrap/js/bootstrap.min.js"></script>
+  <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  -->
+</body>

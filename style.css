@@ -1,0 +1,22 @@
+
+.btn-goto-top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  bottom: 2rem;
+  right: 2rem;
+  border-radius: 50%;
+  background-color: #222324;
+  color: #ffff;
+  border-color: #222324;
+  display: none;
+}
+.btn-goto-top:hover {
+  background-color: #fff;
+  border-color: #000000;
+  color:#000000;
+}
+.hover-zoom:hover {
+  transform: scale(1.05);
+  transition: transform .2s;
+}
